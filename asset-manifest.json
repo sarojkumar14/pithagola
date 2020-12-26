@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://pithagola.com/static/css/main.00770f9f.chunk.css",
-    "main.js": "https://pithagola.com/static/js/main.088e2563.chunk.js",
-    "main.js.map": "https://pithagola.com/static/js/main.088e2563.chunk.js.map",
+    "main.js": "https://pithagola.com/static/js/main.7406a4de.chunk.js",
+    "main.js.map": "https://pithagola.com/static/js/main.7406a4de.chunk.js.map",
     "runtime-main.js": "https://pithagola.com/static/js/runtime-main.b74030ea.js",
     "runtime-main.js.map": "https://pithagola.com/static/js/runtime-main.b74030ea.js.map",
     "static/css/2.da421de5.chunk.css": "https://pithagola.com/static/css/2.da421de5.chunk.css",
     "static/js/2.feecb299.chunk.js": "https://pithagola.com/static/js/2.feecb299.chunk.js",
     "static/js/2.feecb299.chunk.js.map": "https://pithagola.com/static/js/2.feecb299.chunk.js.map",
     "index.html": "https://pithagola.com/index.html",
-    "precache-manifest.f31aa3a94609a3eba717122e12439f92.js": "https://pithagola.com/precache-manifest.f31aa3a94609a3eba717122e12439f92.js",
+    "precache-manifest.496dbc0e06d0ffa2c10d7458c3348869.js": "https://pithagola.com/precache-manifest.496dbc0e06d0ffa2c10d7458c3348869.js",
     "service-worker.js": "https://pithagola.com/service-worker.js",
     "static/css/2.da421de5.chunk.css.map": "https://pithagola.com/static/css/2.da421de5.chunk.css.map",
     "static/css/main.00770f9f.chunk.css.map": "https://pithagola.com/static/css/main.00770f9f.chunk.css.map",
@@ -109,6 +109,6 @@
     "static/css/2.da421de5.chunk.css",
     "static/js/2.feecb299.chunk.js",
     "static/css/main.00770f9f.chunk.css",
-    "static/js/main.088e2563.chunk.js"
+    "static/js/main.7406a4de.chunk.js"
   ]
 }

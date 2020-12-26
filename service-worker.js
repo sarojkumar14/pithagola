@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://pithagola.com/precache-manifest.f31aa3a94609a3eba717122e12439f92.js"
+  "https://pithagola.com/precache-manifest.496dbc0e06d0ffa2c10d7458c3348869.js"
 );
 
 self.addEventListener('message', (event) => {
