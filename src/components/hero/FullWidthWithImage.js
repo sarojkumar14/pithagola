@@ -2,6 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import { BrowserRouter, HashRouter, Router, Switch, Route,Link } from "react-router-dom";
 
 import Header, { LogoLink, NavLinks, NavLink as NavLinkBase } from "../headers/light.js";
 
@@ -44,10 +45,11 @@ const Actions = styled.div`
 export default ({
   navLinks = [
     <NavLinks key={1}>
-      <NavLink href="/AboutUs">About</NavLink>
-      <NavLink href="/BlogIndex">Blog</NavLink>
-      <NavLink href="/ContactUs">Contact</NavLink>
-      <NavLink href="/login">Login</NavLink>
+      <NavLink><Link to="/AboutUs">About</Link></NavLink>
+      <NavLink><Link to="/BlogIndex">Blog</Link></NavLink>
+      <NavLink><Link to="/ContactUs">Contact</Link></NavLink>
+      <NavLink><Link to="/login">Login</Link></NavLink>
+      
     </NavLinks>
   ],
   heading = (
@@ -59,9 +61,9 @@ export default ({
     </>
   ),
   description = "  where you can find peace,unity,strength,inspiration and most importantly a natural and beautifull life.",
-  primaryActionUrl = "#",
+  primaryActionUrl = "/#/Signup",
   primaryActionText = "Sign Up",
-  secondaryActionUrl = "#",
+  secondaryActionUrl = "/#/Login",
   secondaryActionText = "Login"
 }) => {
   return (

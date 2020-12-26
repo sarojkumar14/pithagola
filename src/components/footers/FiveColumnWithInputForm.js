@@ -55,7 +55,7 @@ export default () => {
             <ColumnHeading>Main</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+                <Link href="/#/BlogIndex">Blog</Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="#">FAQs</Link>
@@ -64,7 +64,7 @@ export default () => {
                 <Link href="#">Support</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">About Us</Link>
+                <Link href="/#/AboutUs">About Us</Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -136,9 +136,9 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>Treact Inc.</LogoText>
+            <LogoText>Pithagola Inc.</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2018 Treact Inc. All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2020 Treact Inc. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />

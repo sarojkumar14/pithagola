@@ -112,20 +112,14 @@ export default function App() {
   console.log('public url: ', process.env.PUBLIC_URL)
   return (
     <HashRouter basename='/'>
-     <div>
-       <ul>
-         <li>
-           <Link to="/login">Login</Link>
-         </li>
-       </ul>
+    
      <Route exact path="/" name="Home" component={HotelTravelLandingPage} />
       <Route path="/login" name="Login Page" component={LoginPage} />
       <Route path="/Signup"name="Login Page" component={SignupPage} />
       <Route path="/AboutUs" name="Login Page" component={AboutUsPage} />
       <Route path="/ContactUs" name="Login Page" component={ContactUsPage} />
       <Route path="/BlogIndex" name="Login Page" component={BlogIndexPage} />
-     
-      </div>
+ 
       </HashRouter>
   );
 }

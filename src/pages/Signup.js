@@ -56,7 +56,7 @@ const IllustrationImage = styled.div`
 export default ({
   logoLinkUrl = "#",
   illustrationImageSrc = illustration,
-  headingText = "Sign Up For Treact",
+  headingText = "Sign Up For Pithagola",
   socialButtons = [
     {
       iconImageSrc: googleIconImageSrc,
@@ -73,7 +73,7 @@ export default ({
   SubmitButtonIcon = SignUpIcon,
   tosUrl = "#",
   privacyPolicyUrl = "#",
-  signInUrl = "#"
+  signInUrl = "/#/Login"
 }) => (
   <AnimationRevealPage>
     <Container>
