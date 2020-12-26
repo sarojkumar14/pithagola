@@ -110,17 +110,19 @@ import { BrowserRouter, HashRouter, Router, Switch, Route } from "react-router-d
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
-    <BrowserRouter history={history} basename={process.env.PUBLIC_URL} >
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Router history={history}>
     <Switch>
-      <Route exact path="/" name="Home" component={HotelTravelLandingPage} />
-      <Route path="/login" name="Login Page" component={LoginPage} />
-      <Route path="/Signup" name="Login Page" component={SignupPage} />
-      <Route path="/AboutUs" name="Login Page" component={AboutUsPage} />
-      <Route path="/ContactUs" name="Login Page" component={ContactUsPage} />
-      <Route path="/BlogIndex" name="Login Page" component={BlogIndexPage} />
+     
+      <Route exact path="/login" name="Login Page" component={LoginPage} />
+      <Route exact path="/Signup" name="Login Page" component={SignupPage} />
+      <Route exact path="/AboutUs" name="Login Page" component={AboutUsPage} />
+      <Route exact path="/ContactUs" name="Login Page" component={ContactUsPage} />
+      <Route exact path="/BlogIndex" name="Login Page" component={BlogIndexPage} />
+      <Route  path="/" name="Home" component={HotelTravelLandingPage} />
       </Switch>
-
-    </BrowserRouter>
+      </Router>
+      </HashRouter>
   );
 }
 
