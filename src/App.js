@@ -103,14 +103,16 @@ import BlogIndexPage from "pages/BlogIndex.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
+import { PrivateRoute,history } from './helpers';
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
-    <Router>
-      <Switch>
+    <BrowserRouter  >
+    <Router history={history}>
+      <Switch> 
       <Route exact path="/login" name="Login Page" render={props => <LoginPage {...props} />} />
       <Route exact path="/Signup" name="Login Page" render={props => <SignupPage {...props} />} />
       <Route exact path="/AboutUs" name="Login Page" render={props => <AboutUsPage {...props} />} />
@@ -122,6 +124,7 @@ export default function App() {
         </Route>
       </Switch>
     </Router>
+    </BrowserRouter>
   );
 }
 
