@@ -84,7 +84,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 /* Ready Made Pages (from demos folder) */
 // import EventLandingPage from "demos/EventLandingPage.js";
- import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
+import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
 // import AgencyLandingPage from "demos/AgencyLandingPage.js";
 // import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
@@ -103,27 +103,23 @@ import BlogIndexPage from "pages/BlogIndex.js";
 
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
-import { PrivateRoute,history } from './helpers';
+import { PrivateRoute, history } from './helpers';
 
-import { BrowserRouter, Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
-    <BrowserRouter  basename='/' >
-    <Router history={history}>
-      <Switch> 
-      <Route exact path="/login" name="Login Page" render={props => <LoginPage {...props} />} />
-      <Route exact path="/Signup" name="Login Page" render={props => <SignupPage {...props} />} />
-      <Route exact path="/AboutUs" name="Login Page" render={props => <AboutUsPage {...props} />} />
-      <Route exact path="/ContactUs" name="Login Page" render={props => <ContactUsPage {...props} />} />
-      <Route exact path="/BlogIndex" name="Login Page" render={props => <BlogIndexPage {...props} />} />
-   
-        <Route path="/">
-          <HotelTravelLandingPage />
-        </Route>
+    <BrowserRouter >
+    <Switch>
+      <Route exact path="/" name="Home" component={HotelTravelLandingPage} />
+      <Route path="/login" name="Login Page" component={LoginPage} />
+      <Route path="/Signup" name="Login Page" component={SignupPage} />
+      <Route path="/AboutUs" name="Login Page" component={AboutUsPage} />
+      <Route path="/ContactUs" name="Login Page" component={ContactUsPage} />
+      <Route path="/BlogIndex" name="Login Page" component={BlogIndexPage} />
       </Switch>
-    </Router>
+
     </BrowserRouter>
   );
 }

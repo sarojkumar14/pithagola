@@ -32,20 +32,20 @@ export default ({textOnLeft = false}) => {
   //Change the statistics variable as you like, add or delete objects
   const statistics = [
     {
-      key: "Countries",
-      value: "192",
+      key: "House",
+      value: "1750",
     },
     {
-      key: "Hotels",
-      value: "479",
+      key: "Family",
+      value: "900",
     },
     {
-      key: "Rooms",
-      value: "2093",
+      key: "Population",
+      value: "15000",
     },
     {
-      key: "Workers",
-      value: "10347",
+      key: "voters",
+      value: "5000",
     }
   ]
 
@@ -57,8 +57,8 @@ export default ({textOnLeft = false}) => {
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>We have the best service.</Heading>
-            <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
+            <Heading>We are the best people.</Heading>
+            <Description>The best think about in a small village is when you are not sure what's going on in your own life... Somene in the village does.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
               <Statistic key={index}>

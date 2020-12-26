@@ -68,7 +68,7 @@ const DecoratorBlob2 = tw(
 export default ({
   subheading = "",
   heading = "Testimonials",
-  description = "Here are what some of our amazing customers are saying about our hotels & tours. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "Here are what some of our amazing people are saying about our village.",
   testimonials = null,
   textOnLeft = false
 }) => {
@@ -81,20 +81,20 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+        "https://scontent.fruh4-5.fna.fbcdn.net/v/t1.0-9/80769986_2567882343328277_6660821658447642624_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=HgIRt_spDHAAX_PkNHS&_nc_oc=AQlWizw18qe-BYAqvkn4BkK3d8Oizp_uV1r8JpIa0vvey-oN17h1DOQR7RfZ2ONRnC0&_nc_ht=scontent.fruh4-5.fna&oh=2414a5c844e9938a178c80b595799aa7&oe=600B240E",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale",
-      customerTitle: "CEO, Delos Inc."
+        "My village is a place that I like to visit in my holidays or whenever I feel tired and want to relax. A village is a place that is far away from the pollution and noise of the city. Also, you feel a connection with the soil in a village.",
+      customerName: "Saroj Kumar Sahoo",
+      customerTitle: "CEO, Pithagola Inc."
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1523952578875-e6bb18b26645?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
       profileImageSrc:
-        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy",
+        "Village peoples are more dedicated to their work then the people of the city also they have more strength and capacity then urban area people.",
+      customerName: "Sonali",
       customerTitle: "Founder, EventsNYC"
     }
   ];

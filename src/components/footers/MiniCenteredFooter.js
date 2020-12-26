@@ -36,13 +36,13 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>Treact</LogoText>
+            <LogoText>Pithagola</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
+            <Link href="/">Home</Link>
+            <Link href="/About">About</Link>
+            <Link href="/ContactUs">Contact Us</Link>
+            <Link href="/blog">Blog</Link>
             <Link href="#">Reviews</Link>
           </LinksContainer>
           <SocialLinksContainer>
@@ -57,7 +57,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2020, Pithagola Inc. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>
