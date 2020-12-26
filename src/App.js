@@ -105,24 +105,27 @@ import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import { PrivateRoute, history } from './helpers';
 
-import { BrowserRouter, HashRouter, Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Router, Switch, Route,Link } from "react-router-dom";
 
 export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   console.log('public url: ', process.env.PUBLIC_URL)
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
-      <Router history={history}>
-    <Switch>
+    <HashRouter basename='/'>
+     <div>
+       <ul>
+         <li>
+           <Link to="/login">Login</Link>
+         </li>
+       </ul>
+     <Route exact path="/" name="Home" component={HotelTravelLandingPage} />
+      <Route path="/login" name="Login Page" component={LoginPage} />
+      <Route path="/Signup"name="Login Page" component={SignupPage} />
+      <Route path="/AboutUs" name="Login Page" component={AboutUsPage} />
+      <Route path="/ContactUs" name="Login Page" component={ContactUsPage} />
+      <Route path="/BlogIndex" name="Login Page" component={BlogIndexPage} />
      
-      <Route exact path= {process.env.PUBLIC_URL + "/login"} name="Login Page" component={LoginPage} />
-      <Route exact path={process.env.PUBLIC_URL + "/Signup"} name="Login Page" component={SignupPage} />
-      <Route exact path={process.env.PUBLIC_URL + "/AboutUs"} name="Login Page" component={AboutUsPage} />
-      <Route exact path={process.env.PUBLIC_URL + "/ContactUs"} name="Login Page" component={ContactUsPage} />
-      <Route exact path={process.env.PUBLIC_URL + "/BlogIndex"} name="Login Page" component={BlogIndexPage} />
-      <Route  path="/" name="Home" component={HotelTravelLandingPage} />
-      </Switch>
-      </Router>
+      </div>
       </HashRouter>
   );
 }
