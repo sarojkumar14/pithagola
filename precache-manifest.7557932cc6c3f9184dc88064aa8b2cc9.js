@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5faf9d4a7f41f26a922ff8969710f16",
+    "revision": "ed54e3f5a8399932fdc5de66c334591e",
     "url": "https://pithagola.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://pithagola.com/static/css/2.da421de5.chunk.css"
   },
   {
-    "revision": "7da2001c4531fb985876",
+    "revision": "54694d2a1da78afa3b53",
     "url": "https://pithagola.com/static/css/main.00770f9f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://pithagola.com/static/js/2.feecb299.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7da2001c4531fb985876",
-    "url": "https://pithagola.com/static/js/main.7406a4de.chunk.js"
+    "revision": "54694d2a1da78afa3b53",
+    "url": "https://pithagola.com/static/js/main.d49ec50f.chunk.js"
   },
   {
     "revision": "25b9b1dfb59be84acbb6",
