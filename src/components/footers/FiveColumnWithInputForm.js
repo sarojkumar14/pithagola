@@ -8,6 +8,7 @@ import LogoImage from "images/logo.svg";
 import { ReactComponent as FacebookIcon } from "images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "images/youtube-icon.svg";
+import { BrowserRouter, HashRouter, Router, Switch, Route,Link as ReactLink } from "react-router-dom";
 
 const Container = tw.div`relative bg-gray-200 text-gray-700 -mb-8 -mx-8 px-8 py-20 lg:py-24`;
 const Content = tw.div`max-w-screen-xl mx-auto relative z-10`;
@@ -55,7 +56,7 @@ export default () => {
             <ColumnHeading>Main</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="/#/BlogIndex">Blog</Link>
+              <Link><ReactLink to="/BlogIndex">Blog</ReactLink></Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="#">FAQs</Link>
@@ -64,7 +65,7 @@ export default () => {
                 <Link href="#">Support</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="/#/AboutUs">About Us</Link>
+              <Link><ReactLink to="/AboutUs">About Us</ReactLink></Link>
               </LinkListItem>
             </LinkList>
           </Column>
@@ -72,7 +73,7 @@ export default () => {
             <ColumnHeading>Product</ColumnHeading>
             <LinkList>
               <LinkListItem>
-                <Link href="#">Log In</Link>
+                <Link><ReactLink to="/Login">Log In</ReactLink></Link>
               </LinkListItem>
               <LinkListItem>
                 <Link href="#">Personal</Link>
@@ -138,7 +139,7 @@ export default () => {
             <LogoImg src={LogoImage} />
             <LogoText>Pithagola Inc.</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2020 Treact Inc. All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2021 Pithagola Inc. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />

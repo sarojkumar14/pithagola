@@ -87,16 +87,16 @@ export default ({
       customerName: "Saroj Kumar Sahoo",
       customerTitle: "CEO, Pithagola Inc."
     },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
-      profileImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      quote:
-        "Village peoples are more dedicated to their work then the people of the city also they have more strength and capacity then urban area people.",
-      customerName: "Sonali",
-      customerTitle: "Founder, EventsNYC"
-    }
+    // {
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1024&q=80",
+    //   profileImageSrc:
+    //     "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
+    //   quote:
+    //     "Village peoples are more dedicated to their work then the people of the city also they have more strength and capacity then urban area people.",
+    //   customerName: "Sonali",
+    //   customerTitle: "Founder, EventsNYC"
+    // }
   ];
 
   if (!testimonials || testimonials.length === 0) testimonials = defaultTestimonials;

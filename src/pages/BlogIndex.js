@@ -53,31 +53,32 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1499678329028-101435549a4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
       category: "Travel Tips",
-      date: "April 21, 2020",
-      title: "Safely Travel in Foreign Countries",
+      date: "Jan 05, 2021",
+      title: "Safely Travel in India",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Generally speaking, India is mostly safe for tourists. Violent crime isn't common in this country, especially not against foreigners, while petty theft does exist but it is more prominent in areas frequented by tourist",
       url: "https://timerse.com",
       featured: true
     },
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost(),
-    getPlaceholderPost()
+    kushaleswarTemplePost(),
+    kanjipaniGhatiPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost(),
+    // getPlaceholderPost()
   ]
 }) => {
   const [visible, setVisible] = useState(7);
@@ -123,9 +124,30 @@ const getPlaceholderPost = () => ({
   imageSrc:
     "https://images.unsplash.com/photo-1418854982207-12f710b74003?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
   category: "Travel Guide",
-  date: "April 19, 2020",
-  title: "Visit the beautiful Alps in Switzerland",
+  date: "Jan 05, 2021",
+  title: "Visit the beautiful places in Keonjhar",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   url: "https://reddit.com"
+});
+
+const kushaleswarTemplePost = () => ({
+  imageSrc:
+    "https://cdn.s3waas.gov.in/s307cdfd23373b17c6b337251c22b7ea57/uploads/bfi_thumb/2018052410-olw6s3ajbfn0gew7rhecsdemeeg9j1dx25pkjou3nm.jpeg",
+  category: "Travel Guide",
+  date: "Jan 05, 2021",
+  title: "Kushaleswar Temple",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  url: "https://kendujhar.nic.in/tourist-place/kushaleswar-temple/"
+});
+const kanjipaniGhatiPost = () => ({
+  imageSrc:
+    "https://cdn.s3waas.gov.in/s307cdfd23373b17c6b337251c22b7ea57/uploads/bfi_thumb/2018041234-olw6s0h0qxj5hl0b7y6h2w48m8u5vy2q1rr43uya6a.jpg",
+  category: "Travel Guide",
+  date: "Jan 05, 2021",
+  title: "Kanjipani Ghati",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  url: "https://kendujhar.nic.in/tourist-place/kanjipani-ghati/"
 });

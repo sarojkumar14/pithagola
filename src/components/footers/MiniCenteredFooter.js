@@ -6,7 +6,7 @@ import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
-
+import { BrowserRouter, HashRouter, Router, Switch, Route,Link as ReactLink } from "react-router-dom";
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -39,11 +39,12 @@ export default () => {
             <LogoText>Pithagola</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="/">Home</Link>
-            <Link href="/About">About</Link>
-            <Link href="/ContactUs">Contact Us</Link>
-            <Link href="/blog">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link><ReactLink to="/">Home</ReactLink></Link>
+            <Link><ReactLink to="/AboutUs">About</ReactLink></Link>
+            <Link><ReactLink to="/ContactUs">Contact Us</ReactLink></Link>
+            <Link><ReactLink to="/BlogIndex">Blog</ReactLink></Link>
+
+            {/* <Link href="#">Reviews</Link> */}
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">

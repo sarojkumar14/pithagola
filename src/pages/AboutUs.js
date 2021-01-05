@@ -23,9 +23,9 @@ export default () => {
       <Header />
       <MainFeature1
         subheading={<Subheading>About Pithagola</Subheading>}
-        heading="We are a modern desgin agency."
+        heading="We are modern village people."
         buttonRounded={false}
-        primaryButtonText="See Portfolio"
+        primaryButtonText="Watch video"
         imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
       />
       <MainFeature1
@@ -39,22 +39,22 @@ export default () => {
       <Features
         subheading={<Subheading>Our Values</Subheading>}
         heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description="Pithagola is a clustered human settlement or community, larger than a hamlet but smaller than a town (although the word is often used to describe both hamlets and smaller towns), with a population typically ranging from a few hundred to a few thousand. Though Pithagola is often located in rural areas, the term urban village is also applied to certain urban neighborhoods. "
         cards={[
           {
             imageSrc: SupportIconImage,
-            title: "24/7 Support",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "About",
+            description: "Pithagola is a medium size village located in Harichandanpur Block of Kendujhar district, Orissa with total 482 families residing. The Pithagola village has population of 1778 of which 870 are males while 908 are females as per Population Census 2011."
           },
           {
             imageSrc: ShieldIconImage,
-            title: "Strong Teams",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Population",
+            description: "In Pithagola village population of children with age 0-6 is 182 which makes up 10.24 % of total population of village. Average Sex Ratio of Pithagola village is 1044 which is higher than Orissa state average of 979. Child Sex Ratio for the Pithagola as per census is 701, lower than Orissa average of 941"
           },
           {
             imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
-            description: "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport"
+            title: "Education",
+            description: "Pithagola village has lower literacy rate compared to Orissa. In 2011, literacy rate of Pithagola village was 71.49 % compared to 72.87 % of Orissa. In Pithagola Male literacy stands at 76.67 % while female literacy rate was 66.75 %"
           },
         ]}
         linkText=""

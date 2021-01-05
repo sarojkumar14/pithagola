@@ -43,7 +43,8 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet These Fine Folks.",
   subheading = "Our Team",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description='',
+  //description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   cards = [
     {
       imageSrc: "https://scontent.fruh4-4.fna.fbcdn.net/v/t1.0-9/64963751_2212646228851892_1382266912762757120_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_ohc=oRr1wt7QgE8AX_EV3tn&_nc_ht=scontent.fruh4-4.fna&oh=dc496a949f362c1749b617e3763557ca&oe=600CF89C",
@@ -64,25 +65,25 @@ export default ({
         },
       ],
     },
-    {
-      imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Sr. Designer",
-      name: "Sonali",
-      links: [
-        {
-          url: "https://twitter.com",
-          icon: TwitterIcon,
-        },
-        {
-          url: "https://linkedin.com",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com",
-          icon: GithubIcon,
-        },
-      ],
-    }
+    // {
+    //   imageSrc: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
+    //   position: "Sr. Designer",
+    //   name: "Sonali",
+    //   links: [
+    //     {
+    //       url: "https://twitter.com",
+    //       icon: TwitterIcon,
+    //     },
+    //     {
+    //       url: "https://linkedin.com",
+    //       icon: LinkedinIcon,
+    //     },
+    //     {
+    //       url: "https://github.com",
+    //       icon: GithubIcon,
+    //     },
+    //   ],
+    // }
   ]
 }) => {
   return (

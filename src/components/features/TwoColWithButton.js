@@ -47,9 +47,9 @@ export default ({
       Designed & Developed by <span tw="text-primary-500">Professionals.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Pithagola village is located in Harichandanpur Tehsil of Kendujhar district in Odisha, India. It is situated 20km away from sub-district headquarter Harichandanpur and 45km away from district headquarter Kendujhar. As per 2019 stats, Pithagola village is also a gram panchayat.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://www.youtube.com/",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
